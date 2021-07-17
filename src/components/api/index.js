@@ -47,6 +47,7 @@ export default(baseCurrency) => ({
                     "tokenAddress": symbolName
                 },
                 mode: 'cors',
+            }, {
                 headers: {
                     "Content-Type": "application/json",
                     "X-API-KEY": "BQYyGwlM3uQRKbNrPS01UwFpoDHrTaEq"
@@ -115,6 +116,8 @@ export default(baseCurrency) => ({
                     "tokenAddress": symbolInfo.ticker
                 },
                 mode: 'cors',
+
+            }, {
                 headers: {
                     "Content-Type": "application/json",
                     "X-API-KEY": "BQYyGwlM3uQRKbNrPS01UwFpoDHrTaEq"
